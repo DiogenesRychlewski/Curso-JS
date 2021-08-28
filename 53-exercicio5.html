@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
         <link rel="stylesheet" href="css/default.css">
         <script src="tools/indice.js"></script>
         <script>var current_class="exercicio5";</script>
@@ -152,6 +152,15 @@
 
                 <br><br>
 
+                <h3 id = "pergunta"></h3>
+
+                <form id = "opcoes">
+                    <!-- <input type = "radio" name = "opcao" value = "resposta1"> Resposta <br> -->
+                </form>
+
+                <p id = "erro_acerto"></p>
+                <button style = "display:none" id = "submeter">Enviar Resposta</button>
+                <button style = "display:none" id = "nova_pergunta">Gerar nova pergunta</button>
                 
                 <div id="bottom-area">
                     <div class="prev-next-link">
@@ -177,6 +186,7 @@
         </div>
 
         <script src="js/scripts.js"></script>
+        <script src="js/ex5.js"></script>
 
     </body>
 
